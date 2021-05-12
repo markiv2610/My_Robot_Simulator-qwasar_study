@@ -35,7 +35,3 @@ function my_robot_simulator(instructions){
 }
 return`{x: ${position.x}, y: ${position.y}, bearing: '${position.bearing}'}`;
 }
-console.log(my_robot_simulator("RAALALL"));
-console.log(my_robot_simulator("AAAA"));
-console.log(my_robot_simulator("RAARA"));
-console.log(my_robot_simulator(""));
